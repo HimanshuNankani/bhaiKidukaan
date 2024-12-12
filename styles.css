@@ -1,0 +1,163 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Container to center content */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header Section */
+header {
+    background-color: #0d6efd;
+    padding: 20px 0;
+    color: #fff;
+}
+
+header .logo h1 {
+    font-size: 2rem;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* Home Section */
+#home {
+    background: #007bff;
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+
+#home h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+#home .btn {
+    background-color: #fff;
+    color: #007bff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* About Section */
+#about {
+    padding: 60px 0;
+    background: #fff;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Services Section */
+#services {
+    background-color: #e9ecef;
+    padding: 60px 0;
+    text-align: center;
+}
+
+#services h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.service-card {
+    background: #fff;
+    padding: 30px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+}
+
+.service-card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.service-card p {
+    font-size: 1rem;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+#contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contact form input, 
+#contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+#contact form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #0d6efd;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#contact form button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer Section */
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
